@@ -1,0 +1,28 @@
+# For more details on the format and content:
+# https://github.com/robocorp/rcc/blob/master/docs/recipes.md#what-is-in-condayaml
+# Tip: Adding a link to the release notes of the packages helps maintenance and security.
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.10.12                
+  - robocorp-truststore=0.8.0    
+  - pip=23.2.1                   
+  - pip:
+    - robocorp==2.0.1             
+    - robocorp-browser==2.3.3     
+    - requests==2.31.0            
+    - botcity-framework-base==0.4.4
+    - botcity-framework-web==0.9.0
+    - beautifulsoup4==4.12.3
+    - selenium==3.141.0
+    - opencv-python==4.10.0.84
+    - psutil>=5.7.0,<6.0.0
+    - numpy==1.26.4
+    - openpyxl==3.1.5
+    - SQLAlchemy==2.0.32
+    - marshmallow==3.22.0
+    - marshmallow-sqlalchemy==1.1.0
+    - webdriver-manager==4.0.2
+    - pytz==2024.1
