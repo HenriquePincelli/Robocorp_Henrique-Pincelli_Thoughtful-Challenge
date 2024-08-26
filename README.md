@@ -2,7 +2,7 @@
 
 This template leverages the new [Python framework](https://github.com/robocorp/robocorp), the [libraries](https://github.com/robocorp/robocorp/blob/master/docs/README.md#python-libraries) from to same project as well.
 
-"The architecture is inspired by the Domain-Driven Design (DDD) model, providing a structured approach to building scalable and maintainable applications. This project is designed to run a bot developed using the BotCity framework, enabling seamless automation while maintaining clarity between business logic and implementation details. The environment comes pre-configured with essential libraries, so you can focus on task execution without worrying about the underlying Python setup."
+The architecture is inspired by the Domain-Driven Design (DDD) model, providing a structured approach to building scalable and maintainable applications. This project is designed to run a bot developed using the BotCity framework, enabling seamless automation while maintaining clarity between business logic and implementation details. The environment comes pre-configured with essential libraries, so you can focus on task execution without worrying about the underlying Python setup.
 
 👉 Other templates are available as well via our tooling and on our [Portal](https://robocorp.com/portal/tag/template)
 
