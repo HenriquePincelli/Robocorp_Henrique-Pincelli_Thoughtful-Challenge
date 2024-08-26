@@ -1,4 +1,4 @@
-from RPA_APP.run_flask_app import rpa_challenge
+from RPA_APP.app import rpa_challenge
 from robocorp.tasks import task
 # from RPA.Excel.Files import Files as Excel
 import sys
