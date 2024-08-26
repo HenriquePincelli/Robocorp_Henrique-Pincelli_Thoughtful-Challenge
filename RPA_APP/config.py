@@ -6,13 +6,6 @@ secrets = vault.get_secret("Aljazeera")
 locators = storage.get_json("Aljazeera's News Extraction")
 
 
-# >>>>>>>>>DATABASE CONFIGS>>>>>>>>>
-# SQLALCHEMY_DATABASE_URI = "sqlite:///database.db"
-SQLALCHEMY_DATABASE_URI = secrets["SQLALCHEMY_DATABASE_URI"]
-# SQLALCHEMY_TRACK_MODIFICATIONS = False
-SQLALCHEMY_TRACK_MODIFICATIONS = secrets["SQLALCHEMY_TRACK_MODIFICATIONS"]
-# <<<<<<<<<DATABASE CONFIGS<<<<<<<<<
-
 # >>>>>>>>>EMAIL CONFIGS>>>>>>>>>
 # SMTP_HOST = "smtp.gmail.com"
 SMTP_HOST = secrets["SMTP_HOST"]
